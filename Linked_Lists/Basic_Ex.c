@@ -1,51 +1,64 @@
 #include<stdio.h>
 #include<stdlib.h>
-struct node // self referential structure
-{
- int data;
- struct node *link; 
+
+// Define a node structure for the linked list
+struct Node {
+    int data;
+    struct Node* next;
 };
-struct node *head = NULL; // Initially the linked list is empty. 
-void display();
-void create();
-int main ()
-{
- create();
- display();
+
+// Function to display the linked list elements
+void display(struct Node *head) {
+    struct Node *temp = head;
+    while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+    printf("\n");
 }
-void display()
-{
- struct node *temp;
- temp = head;
- while(temp != NULL)
- {
-  printf("%d ", temp->data);
-  temp = temp->link;
- }
+
+// Function to create nodes and add them to the linked list
+struct Node* create() {
+    struct Node* head = NULL;
+    struct Node* temp = NULL;
+    int x, choice;
+
+    do {
+        printf("Enter data for the new node: ");
+        scanf("%d", &x);
+
+        // Create a new node
+        struct Node *newNode = (struct Node*)malloc(sizeof(struct Node));
+        if (newNode == NULL) {
+            printf("Memory allocation failed!\n");
+            exit(1);
+        }
+
+        newNode->data = x;
+        newNode->next = NULL;
+
+        if (head == NULL) {
+            head = newNode;
+            temp = head;
+        } else {
+            temp->next = newNode;
+            temp = temp->next;
+        }
+
+        printf("Do you want to create another node? (1/0): ");
+        scanf("%d", &choice);
+    } while (choice != 0);
+
+    return head;
 }
-void create()
-{
- struct node *t, *temp;
- int x, choice;
- do
- {
-  t = (struct node *)malloc(sizeof(struct node)); 
-  t->link = NULL;
-  printf("Enter data part for new node ");
-  scanf("%d", &x);
-  t->data = x;
-  if(head == NULL)
-  {
-   head = t;
-   temp = head;
-  }
-  else
-  {
-   temp->link = t;
-   temp = temp->link;
-  }
-  printf("Do you want to create another node? \nPress 1 to continue; press 0 to stop");
-  scanf("%d", &choice);
- }
- while(choice != 0);
+
+int main() {
+    // Create the linked list
+    struct Node* head = create();
+
+    // Display the linked list elements
+    printf("Linked list elements: ");
+    display(head);
+
+    return 0;
 }
