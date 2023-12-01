@@ -127,4 +127,5 @@ int main() {
     printf("Average of nodes' data: %.2f\n", average);
 
     return 0;
+    printf("\nhello");
 }
