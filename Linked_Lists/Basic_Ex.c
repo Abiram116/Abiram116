@@ -1,6 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
 
+// #define INT_MAX = 0
+// #define INT_MIN = 0
 // Define a node structure for the linked list
 struct Node {
     int data;
@@ -52,6 +55,60 @@ struct Node* create() {
     return head;
 }
 
+// Function to count the number of nodes in the linked list
+int countNodes(struct Node* head) {
+    int count = 0;
+    struct Node* temp = head;
+
+    while (temp != NULL) {
+        count++;
+        temp = temp->next;
+    }
+
+    return count;
+}
+
+// Function to find the sum of all nodes' data in the linked list
+int findSum(struct Node* head) {
+    int sum = 0;
+    struct Node* temp = head;
+
+    while (temp != NULL) {
+        sum += temp->data;
+        temp = temp->next;
+    }
+
+    return sum;
+}
+
+// Function to find the average of all nodes' data in the linked list
+float findAverage(struct Node* head) {
+    int count = countNodes(head);
+    int sum = findSum(head);
+
+    if (count == 0) {
+        return 0; // To avoid division by zero
+    }
+
+    return (float)sum / count;
+}
+
+// Find minimum and maximum  of all nodes' data in the linked list
+void findMinMax(struct Node* head, int *minimum, int *maximum) {
+    *minimum = INT_MAX;
+    *maximum = INT_MIN;
+    struct Node* temp = head;
+    while (temp != NULL) {
+        if (*minimum > temp->data) {
+            *minimum = temp->data;
+        }
+            else if (*maximum < temp->data) {
+                *maximum = temp->data;
+            }
+                temp = temp->next;
+    }
+}
+
 int main() {
     // Create the linked list
     struct Node* head = create();
@@ -59,6 +116,15 @@ int main() {
     // Display the linked list elements
     printf("Linked list elements: ");
     display(head);
+
+    // Count nodes, find sum, and calculate average
+    int nodeCount = countNodes(head);
+    int sum = findSum(head);
+    float average = findAverage(head);
+
+    printf("Number of nodes: %d\n", nodeCount);
+    printf("Sum of nodes' data: %d\n", sum);
+    printf("Average of nodes' data: %.2f\n", average);
 
     return 0;
 }
