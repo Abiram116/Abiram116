@@ -23,7 +23,7 @@
  }
  int deque()
  {
-   int d;
+  int d;
    if(front == -1)
    {
      printf("Queue is empty");
