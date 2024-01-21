@@ -1,3 +1,0 @@
-Integer: 42
-Float: 3.140000
-String: Hello, world!

@@ -12,7 +12,11 @@ bool isEmpty() {
 }
 
 bool isFull() {
-    return ((rear + 1) % MAX_SIZE == front);
+    return (((rear + 1) == MAX_SIZE && front == 0) || (rear + 1 == front));
+}
+
+int circularIncrement(int value) {
+    return (value + 1) == MAX_SIZE ? 0 : value + 1;
 }
 
 void enque(int value) {
@@ -23,7 +27,7 @@ void enque(int value) {
         if (isEmpty()) {
             front = 0; // Update front if the queue is empty
         }
-        rear = (rear + 1) % MAX_SIZE; // Circularly move rear
+        rear = (rear + 1 == MAX_SIZE) ? 0 : rear + 1; // Circularly move rear
         que[rear] = value;
         printf("%d enqueued to queue.\n", value);
     }
@@ -40,7 +44,7 @@ void deque() {
             front = -1;
             rear = -1;
         } else {
-            front = (front + 1) % MAX_SIZE; // Circularly move front
+            front = (front + 1 == MAX_SIZE) ? 0 : front + 1; // Circularly move front
         }
     }
 }

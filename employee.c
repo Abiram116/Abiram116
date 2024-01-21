@@ -1,1 +1,0 @@
-//define a structure employe having employe id,name,salary. Create a array of n employee information accept data from user as input and display those data. Find the name of the employee who is drawing maximum salary
