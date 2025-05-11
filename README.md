@@ -1,47 +1,47 @@
 # 👋 Hi, I’m Abiram!
 
-I am a **2nd-year B.Tech student** pursuing a degree in **Artificial Intelligence & Data Science (AI & DS)** at **KL University, Hyderabad**. I am passionate about learning and applying **AI, Machine Learning, Deep Learning**, and **Web Development**. I am actively looking for internships that will allow me to further develop my skills and contribute to innovative projects.
+🎓 3rd Year B.Tech in AI & Data Science @ KL University  
+💡 Passionate about solving problems using Deep Learning, Machine Learning & AI APIs
 
-## 👀 About Me
-
-- 🔍 I’m interested in **AI, Machine Learning, Deep Learning**, and **Web Development**.
-- 🌱 I’m currently learning **MERN stack** and exploring advanced **Deep Learning** techniques, including **image colorization**.
-- 💡 I’m working on **a math project** integrating **Linear Programming (LP)** methods into Django.
-- 🤖 I’ve worked on several projects that showcase my skills in **Django** and **machine learning**:
-  - **Portfolio Website** built with Django
-  - **Recipeasy**: A recipe management app built with Django
-  - **ML Project**: Handwritten digit prediction using CNN with the **MNIST** dataset, integrated into a Django app
-
-## 🔧 Technologies & Tools
-
-- **Programming Languages**: Python, JavaScript
-- **Frameworks**: Django, MERN (MongoDB, Express, React, Node.js)
-- **Machine Learning**: TensorFlow, Keras, Scikit-learn
-- **Tools**: Git, GitHub, VS Code, Jupyter Notebooks, Google Colab
-
-## 💼 Projects
-
-- **Portfolio Website**: A professional portfolio built using Django to showcase my work.
-- **Recipeasy**: A recipe management web application using Django where users can add recipes, view ingredients, and schedule meals.
-- **ML Project (MNIST Handwritten Digit Predictor)**: A convolutional neural network (CNN) model for handwritten digit prediction, integrated into a Django web application.
-- **Mathematical Course Project**: Integrating **Linear Programming (LP)** methods into Django with a graphical representation.
-- **Deep Learning Project**: Currently working on a **Black and White Image Colorization** project using deep learning.
-
-## 📬 How to Reach Me
-
-- 📧 Email: sreeabirammandava@gmail.com
-- 🌐 LinkedIn: https://www.linkedin.com/in/sree-abiram-mandava-86b5a528b/
-- 📱 Twitter: (will upload it soon)
-
-## 📈 Stats
-
-![Abiram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abiram116&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
-
-## 🚀 Fun Fact
-
-I enjoy exploring the intersection of **AI** and **creative fields** like **image processing** and **interactive web design**. When I’m not coding, you can find me learning new things or working on side projects.
+I specialize in building AI-powered solutions by combining my knowledge of deep learning with modern web frameworks. I enjoy working on projects that bring machine intelligence to life — from image colorization models to AI-integrated productivity tools. I’m always eager to experiment with new AI techniques, APIs, and architectures to push the boundaries of what's possible.
 
 ---
 
-Feel free to check out my repositories to see the projects I’ve worked on! If you're interested in collaborating or just want to chat about tech, feel free to reach out.
+## 🚀 Project Highlights
 
+- 🧮 **LinSolverX** – A Django-based web app for solving Linear Programming problems (Simplex, Graphical, Transportation, etc.)  
+  🔗 [Live Demo](https://linsolverx.onrender.com) | [GitHub](https://github.com/Abiram116/MathCourse)
+
+- 🌈 **Image Colorization** – A deep learning model built using autoencoders and U-Net to colorize grayscale images; trained using CUDA for acceleration  
+  🔗 [GitHub](https://github.com/nandhithr6/Image-Colorization)
+
+- 🤖 **SpaceLearn** – A React Native-based student productivity app powered by AI APIs; features include AI Chat, assignment generation & learning assistant  
+  🔗 [GitHub](https://github.com/Abiram116/SpaceLearn)
+
+- 🍽️ **Recipeasy** – A full-stack recipe management app built with Django featuring Google OAuth, GSAP animations, and a meal planning calendar  
+  🔗 [Live Demo](https://recipeasy-i7h1.onrender.com) | [GitHub](https://github.com/Abiram116/Recipeasy)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Languages**: Python, JavaScript  
+- **Frameworks**: Django, React Native  
+- **AI & ML**: TensorFlow, Keras, Hugging Face Transformers, OpenCV  
+- **Tools**: Git, GitHub, Google Colab, Render, VS Code, Supabase
+
+---
+
+## 📫 Connect with Me
+
+- 📧 Email: [sreeabirammandava@gmail.com](mailto:sreeabirammandava@gmail.com)  
+- 💼 LinkedIn: [Sree Abiram Mandava](https://www.linkedin.com/in/sree-abiram-mandava-86b5a528b/)  
+- 🌐 Portfolio: [personal-portfolio-1nkd.onrender.com](https://personal-portfolio-1nkd.onrender.com)
+
+---
+
+## ✨ Fun Fact
+
+I'm obsessed with the idea of integrating AI into real-world tools — whether it's to automate, assist, or enhance creativity.
+
+> “I don’t just build apps — I build with intelligence.” 🚀
