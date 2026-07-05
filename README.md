@@ -28,15 +28,7 @@
 
 <div align="center">
 
-<a href="https://www.credly.com/badges/88c9abf6-b877-4149-a5de-5b063144e366">
-<img src="https://images.credly.com/size/160x160/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" width="130" alt="AWS Developer Associate"/>
-</a>
-
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.credly.com/badges/aff90264-6f61-494a-b620-d7017c7754ee">
-<img src="https://images.credly.com/size/160x160/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="130" alt="AWS Cloud Practitioner"/>
-</a>
+<a href="https://www.credly.com/badges/88c9abf6-b877-4149-a5de-5b063144e366"><img src="https://images.credly.com/size/160x160/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" width="130" alt="AWS Developer Associate"/></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.credly.com/badges/aff90264-6f61-494a-b620-d7017c7754ee"><img src="https://images.credly.com/size/160x160/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="130" alt="AWS Cloud Practitioner"/></a>
 
 <br><br>
 
@@ -105,18 +97,6 @@ Deep-learning model for automatic image colorization.
 - U-Net with autoencoder architecture for grayscale image colorization
 - CUDA-accelerated training pipeline
 - End-to-end computer vision workflow including dataset preparation, model design, training, and evaluation
-
----
-
-## 🤖 [Longformer Document Classifier](https://github.com/nandhithr6/HackAthon)
-
-Transformer-based classifier for long-document binary classification.
-
-**Python • Hugging Face Transformers**
-
-- Fine-tuned Longformer for long-context document understanding
-- Complete tokenizer, training, and evaluation pipeline
-- Evaluated using Accuracy, F1 Score, and Recall
 
 ---
 
