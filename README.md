@@ -142,8 +142,7 @@ Full-stack recipe management platform.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sree-abiram-mandava-86b5a528b/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sreeabirammandava@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-1a1a2e?style=for-the-badge&logo=render&logoColor=white)](https://personal-portfolio-1nkd.onrender.com)
-
+[![Portfolio](https://img.shields.io/badge/Portfolio-1a1a2e?style=for-the-badge&logo=github&logoColor=white)](https://abiram116.github.io/)
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=100&section=footer" width="100%"/>
 
 </div>
